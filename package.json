@@ -1,10 +1,14 @@
 {
   "name": "changeset-test",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-tag": "pnpm changeset tag",
+    "create-version": "pnpm changeset version",
+    "add-changeset": "pnpm changeset",
+    "push-with-tags": "git push --follow-tags"
   },
   "keywords": [],
   "author": "",
